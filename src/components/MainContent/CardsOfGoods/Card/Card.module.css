@@ -1,0 +1,20 @@
+.card {
+  
+  border: 1px solid black;
+  display: block;
+}
+
+.cardCategory{
+  background-color: white; 
+  border-radius: 6px;
+
+}
+
+.cardName{
+color:white;  
+}
+
+.cardImg{
+  width: 100px;
+  height: 100px;
+}
