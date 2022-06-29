@@ -1,5 +1,19 @@
 .main {
   background-color: #FDF0E9
-}
+};
 
-;
+.loadingButton  {
+  color:#391400;
+  text-transform: uppercase;
+  /* font-family: Epilogue-Black; */
+  font-size: 14px;
+
+  width: 170px;
+  height: 48px;
+  background-color: white;
+  border-radius: 10px;
+  
+  
+  /* display: block;
+  margin: 100px auto; */
+}

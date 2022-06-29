@@ -1,1 +1,13 @@
-.cardsList {display: flex;}
+.mainContent{
+    width: 100%;
+}
+.cardsList {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+
+}

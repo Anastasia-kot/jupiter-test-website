@@ -8,11 +8,13 @@ button {
 }
 
 .categoriesWrapper{
+  max-width: 1570px;
   display: flex;
   justify-content: space-between;
   width: 60%;
   margin: 0 auto;
   padding-top:80px ;
+  margin-bottom: 80px;
 }
 
 .categoryButton {
