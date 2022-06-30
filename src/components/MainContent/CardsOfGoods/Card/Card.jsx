@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './Card.module.css';
+import cn from 'classnames';
 import img0 from '../../../../Images/Bitmap-0.png';
 import img1 from '../../../../Images/Bitmap-1.png';
 import img2 from '../../../../Images/Bitmap-2.png';
@@ -12,60 +13,40 @@ import img8 from '../../../../Images/Bitmap-8.png';
 
 
 const Card = (props) => {
-        switch (props.card.imgId) {
-            case 0: return (<div className={styles.card}>
-                        <img src={img0} alt='item-card' className={styles.cardImg} />
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 1: return (<div className={styles.card}>
-                        <img src={img1} alt='item-card' className={styles.cardImg}/>
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 2: return (<div className={styles.card}>
-                        <img src={img2} alt='item-card' className={styles.cardImg}/>
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 3: return (<div className={styles.card}>
-                        <img src={img3} alt='item-card' className={styles.cardImg}/>
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 4: return (<div className={styles.card}>
-                        <img src={img4} alt='item-card' className={styles.cardImg}/>
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 5: return (<div className={styles.card}>
-                        <img src={img5} alt='item-card' className={styles.cardImg}/>
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 6: return (<div className={styles.card}>
-                        <img src={img6} alt='item-card' className={styles.cardImg}/>
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 7: return (<div className={styles.card}>
-                        <img src={img7} alt='item-card'className={styles.cardImg} />
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
-            case 8: return (<div className={styles.card}>
-                        <img src={img8} alt='item-card'className={styles.cardImg} />
-                        <button className={styles.cardCategory}>{props.card.category}</button>
-                        <div className={styles.cardName}> {props.card.cardName} </div>
-                    </div>);
        
-            default:
-                return (<div className={styles.card}>
-                    <button className={styles.cardCategory}>{props.card.category}</button>
-                    <div className={styles.cardName}> {props.card.cardName} </div>
-                </div>);
+    let setCategoryClick = (category) => {props.setCategory(category);};
+    let toggleSelectCardOnClick = (id) => { props.toggleSelectCard(id) };
+
+    return (
+        <div className={cn(styles.card, { [styles.selected]: props.card.isSelected })} 
+            onClick={() => toggleSelectCardOnClick(props.card.id)} >
+            <button className={styles.cardCategory} onClick={() => setCategoryClick(props.card.category)}>{props.card.category}</button>
+            <div className={styles.cardName}> {props.card.cardName} </div>
+            <Image imgId={props.card.imgId} />
+        </div>)
+   
+
+}
+
+
+const Image = (props) => {
+
+        switch ( props.imgId ) {
+            case 0: return <img src={img0} alt='item-card' className={styles.cardImg} />; 
+            case 1: return <img src={img1} alt='item-card' className={styles.cardImg} />; 
+            case 2: return <img src={img2} alt='item-card' className={styles.cardImg} />;  
+            case 3: return <img src={img3} alt='item-card' className={`${styles.cardImg} ${styles.img3}`}  />;  
+            case 4: return <img src={img4} alt='item-card' className={styles.cardImg} />;  
+            case 5: return <img src={img5} alt='item-card' className={styles.cardImg} />;  
+            case 6: return <img src={img6} alt='item-card' className={styles.cardImg} />;  
+            case 7: return <img src={img7} alt='item-card' className={styles.cardImg} />;  
+            case 8: return <img src={img8} alt='item-card' className={styles.cardImg} />;  
+            default: return <img src='' alt='item-card' className={styles.cardImg} />
         }
-    }
+}
+
+
+
 
 
 export default Card;

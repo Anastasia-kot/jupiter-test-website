@@ -6,21 +6,19 @@ import styles from './CardsOfGoods.module.css';
 const CardsOfGoods = (props) => {
     return (<div className={styles.mainContent}>
             <div className={styles.cardsList}>
-           
-     
-                
-                {props.cards.map(c => {
-                    return ( 
-
+                 
+            {props.cards.map(c => {
+                return ( 
                     (props.selectedCategoryId === 'Show All')
-                    ? <Card card={c} key={c.id} /> 
-                    : ((props.selectedCategoryId === c.category) && <Card card={c} key={c.id} />)
+                        ? <Card card={c} key={c.id} setCategory={props.setCategory} toggleSelectCard={props.toggleSelectCard}/> 
+                        : ((props.selectedCategoryId === c.category) && 
+                            <Card card={c} key={c.id} setCategory={props.setCategory} toggleSelectCard={props.toggleSelectCard} />)
                 )
             })}
         
         
         </div>
-        <button className={styles.buttonLoadMore}>Load more</button>
+       
        
     </div>);
 }

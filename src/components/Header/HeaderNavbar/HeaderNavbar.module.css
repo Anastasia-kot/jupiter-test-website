@@ -1,6 +1,6 @@
 .navbar{
   max-width: 1570px; 
-   text-align: center;
+  text-align: center;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
@@ -30,6 +30,14 @@
     font-size: 24px;
     /* font-family:  Epilogue-bold; */
   }  
+
+.companyLinkMobile{
+  display: block;
+  padding-top:16px;
+  margin-bottom: 93px;
+  text-align: center;
+}
+
 
 .linksWrapper{
     display: flex;
