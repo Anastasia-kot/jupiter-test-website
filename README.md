@@ -1,7 +1,7 @@
 jupiter-test-website
 adaptive website with cards of goods
 
-Техническое задание:
+<b>Техническое задание:</b>
 
 Сделать верстку макета с помощью React для десктопа и мобильных устройств.
 
