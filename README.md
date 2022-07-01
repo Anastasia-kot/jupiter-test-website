@@ -1,7 +1,7 @@
 ###  Project name:   
 jupiter-test-website
 
-###  Short descriptione:   
+###  Short description:   
 adaptive website with cards of goods
 
 # **Техническое задание:**
