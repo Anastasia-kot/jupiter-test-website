@@ -32,7 +32,10 @@ adaptive website with cards of goods
 
 - Требований к тому откуда будет загружен объект с картинками и именами нет, это может быть прописано локально в коде, может загружаться удалённо из БД, это по желанию. _// Картинки хранятся внутри проекта в папке Images_!
 
-[4_Portfolio_2_1440](https://user-images.githubusercontent.com/96003382/176887334-1d50c8c8-81c7-45c3-b165-fa4b53db6fb1.png)
+# **Макет:**
+
+
+![4_Portfolio_2_1440](https://user-images.githubusercontent.com/96003382/176887462-ff0e044a-61d1-40a3-acfa-50b7ccf78907.png)
 
 
 ![4_Portfolio_2_375](https://user-images.githubusercontent.com/96003382/176887378-4ab1acb9-fa17-45d7-94e4-af2b9faa4652.png)
