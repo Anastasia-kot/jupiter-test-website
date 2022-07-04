@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/jupiter-test-website/static/css/main.187f0d26.css",
+    "main.css": "/jupiter-test-website/static/css/main.19aec926.css",
     "main.js": "/jupiter-test-website/static/js/main.dbb7c5fe.js",
     "static/js/787.28cb0dcd.chunk.js": "/jupiter-test-website/static/js/787.28cb0dcd.chunk.js",
     "static/media/Bitmap-4.png": "/jupiter-test-website/static/media/Bitmap-4.ba333221f066cacfe503.png",
@@ -14,12 +14,12 @@
     "static/media/Bitmap-7.png": "/jupiter-test-website/static/media/Bitmap-7.c7a4c33683ff31155e73.png",
     "index.html": "/jupiter-test-website/index.html",
     "static/media/Logo.svg": "/jupiter-test-website/static/media/Logo.e0c4942ca5adbf887c655ff518e437fd.svg",
-    "main.187f0d26.css.map": "/jupiter-test-website/static/css/main.187f0d26.css.map",
+    "main.19aec926.css.map": "/jupiter-test-website/static/css/main.19aec926.css.map",
     "main.dbb7c5fe.js.map": "/jupiter-test-website/static/js/main.dbb7c5fe.js.map",
     "787.28cb0dcd.chunk.js.map": "/jupiter-test-website/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.187f0d26.css",
+    "static/css/main.19aec926.css",
     "static/js/main.dbb7c5fe.js"
   ]
 }
