@@ -1,6 +1,6 @@
 import './App.css';
 import React, { useEffect, useRef } from "react";
-import Header from './components/Header/Header';
+import HeaderBlock from './components/HeaderBlock/HeaderBlock';
 import MainContent from './components/MainContent/MainContent';
 import { connect } from 'react-redux';
 import { deleteCards } from './redux/app-reducer';
@@ -42,7 +42,7 @@ const App = (props) =>  {
 
   return (
     <div>
-      <Header />
+      <HeaderBlock />
       <MainContent />
     </div>)
   }

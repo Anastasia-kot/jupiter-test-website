@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Header.module.css';
+import styles from './HeaderBlock.module.css';
 import HeaderMain from './HeaderMain/HeaderMain';
 import HeaderNavbar from './HeaderNavbar/HeaderNavbar';
 
 
-const Header = (props) => {
+const HeaderBlock = (props) => {
 
 
     return (<div className={styles.headerPageWrapper}>
@@ -14,4 +14,4 @@ const Header = (props) => {
         </div>);
 }
 
-export default Header;
+export default HeaderBlock;
