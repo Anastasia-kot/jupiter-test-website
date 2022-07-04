@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jupiter-test-website/static/css/main.a5cceaa3.css",
+    "main.js": "/jupiter-test-website/static/js/main.dbb7c5fe.js",
+    "static/js/787.28cb0dcd.chunk.js": "/jupiter-test-website/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Bitmap-4.png": "/jupiter-test-website/static/media/Bitmap-4.ba333221f066cacfe503.png",
+    "static/media/Bitmap-6.png": "/jupiter-test-website/static/media/Bitmap-6.72ed3116de75e7fc7642.png",
+    "static/media/Bitmap-0.png": "/jupiter-test-website/static/media/Bitmap-0.f08e634d504d9a45784b.png",
+    "static/media/Bitmap-8.png": "/jupiter-test-website/static/media/Bitmap-8.efcc9286dc2322a15120.png",
+    "static/media/Bitmap-3.png": "/jupiter-test-website/static/media/Bitmap-3.7b1d861695714394d752.png",
+    "static/media/Bitmap-1.png": "/jupiter-test-website/static/media/Bitmap-1.174f7005702ddb5a44bf.png",
+    "static/media/Bitmap-2.png": "/jupiter-test-website/static/media/Bitmap-2.dff215e812c24eb3b126.png",
+    "static/media/Bitmap-5.png": "/jupiter-test-website/static/media/Bitmap-5.5ff1d3171745ff3f9c72.png",
+    "static/media/Bitmap-7.png": "/jupiter-test-website/static/media/Bitmap-7.c7a4c33683ff31155e73.png",
+    "index.html": "/jupiter-test-website/index.html",
+    "static/media/Logo.svg": "/jupiter-test-website/static/media/Logo.e0c4942ca5adbf887c655ff518e437fd.svg",
+    "main.a5cceaa3.css.map": "/jupiter-test-website/static/css/main.a5cceaa3.css.map",
+    "main.dbb7c5fe.js.map": "/jupiter-test-website/static/js/main.dbb7c5fe.js.map",
+    "787.28cb0dcd.chunk.js.map": "/jupiter-test-website/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a5cceaa3.css",
+    "static/js/main.dbb7c5fe.js"
+  ]
+}
