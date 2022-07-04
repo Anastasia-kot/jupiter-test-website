@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -b master -d build -r https://github.com/Anastasia-kot/jupiter-test-website.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
