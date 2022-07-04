@@ -7,7 +7,7 @@ import HeaderNavbar from './HeaderNavbar/HeaderNavbar';
 const Header = (props) => {
 
 
-    return (<div className={styles.header}>
+    return (<div className={styles.headerWrapper}>
        
             <HeaderNavbar />
             <HeaderMain />

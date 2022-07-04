@@ -3,7 +3,7 @@ import styles from './HeaderMain.module.css';
 
 
 const HeaderMain = () => {
-    return (<div className={styles.headerWrapper}>
+    return (<div className={styles.headerMainWrapper}>
 
             <div className={styles.header}>Portfolio</div>
             <div className={styles.text}>Agency provides a full service range including technical skills, design, business understanding.</div>
