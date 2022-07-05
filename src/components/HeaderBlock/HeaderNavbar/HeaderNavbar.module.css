@@ -33,11 +33,12 @@
     /* font-family:  Epilogue-bold; */
   }  
 
+
 .companyLinkMobile{
-  display: block;
-  padding-top:16px;
-  margin-bottom: 93px;
+  display: block; 
+  padding: 16px 50px 93px 50px;
   text-align: center;
+  background-color: #28293E;
 }
 
 

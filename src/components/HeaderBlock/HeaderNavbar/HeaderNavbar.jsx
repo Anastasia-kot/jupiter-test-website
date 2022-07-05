@@ -18,7 +18,7 @@ const HeaderNavbar = () => {
 
             {matches => (
                 <Fragment>
-                    {matches.small && <div className={styles.navbar}>
+                    {matches.small && <div>
                         <NavLink to='/main' className={styles.companyLinkMobile}>
                             <img src={logo} alt='logo_image' className={styles.companyLogo} />
                             <span className={styles.companyName}>Agency</span>

@@ -1,17 +1,18 @@
 import React from 'react';
-import styles from './HeaderBlock.module.css';
 import HeaderMain from './HeaderMain/HeaderMain';
 import HeaderNavbar from './HeaderNavbar/HeaderNavbar';
+import styles from './HeaderBlock.module.css';
+ 
 
 
-const HeaderBlock = (props) => {
+const HeaderBlock = () => { 
+    return (<div className={styles.headerBlockWrapper}
+        // style={{ backgroundColor: "#28293E", width: "100%", color: "white" }}
+        >
 
-
-    return (<div className={styles.headerPageWrapper}>
-       
-            <HeaderNavbar />
-            <HeaderMain />
-        </div>);
+                <HeaderNavbar />
+                <HeaderMain />
+            </div>)
 }
 
 export default HeaderBlock;
