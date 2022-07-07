@@ -56,17 +56,16 @@ const appReducer = (state = initialState, action) => {
             }
 
         case TOGGLE_SELECT_CARD:
-            return { ...state, 
+            return { 
+                ...state, 
                 cards: state.cards.map(c => {
                     if (c.id === action.cardID) { return ({ ...c, isSelected: !c.isSelected }) } else return (c);
                 })
             }
         case DELETE_CARDS:
-            
-            let newCards1 = state.cards.filter(c => !c.isSelected);
-             console.log(newCards1);
-             return { ...state, 
-                cards: [...newCards1]
+             return { 
+                ...state, 
+                 cards: [...state.cards.filter(c => !c.isSelected)]
             }
             
 
