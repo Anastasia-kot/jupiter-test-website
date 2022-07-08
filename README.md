@@ -1,4 +1,4 @@
-###  Website URL:   
+#  Website URL:   
 https://anastasia-kot.github.io/jupiter-test-website/
 
 ###  Short description:   
