@@ -16,9 +16,10 @@
 + На десктопе, если есть выбранная картинка, при нажатии кнопки "Del" картинка должна удаляться. После чего она не должна больше отображаться в том числе при переключении категорий.
 + Нажатие на метку категории внутри картинки - так же должно переключать отображения категории.
  
-# **Макет:**
+# **Скриншоты:**
+###Десктоп
+![image](https://user-images.githubusercontent.com/96003382/195393004-8acc9532-f004-40b1-8123-6cb3c9d94500.png)
 
-![4_Portfolio_2_1440](https://user-images.githubusercontent.com/96003382/176887462-ff0e044a-61d1-40a3-acfa-50b7ccf78907.png)
-
-![4_Portfolio_2_375](https://user-images.githubusercontent.com/96003382/176887378-4ab1acb9-fa17-45d7-94e4-af2b9faa4652.png)
+###Мобильный
+![image](https://user-images.githubusercontent.com/96003382/195393511-0bcf8866-ba5a-4d31-8338-ece979dc86a4.png)
 
